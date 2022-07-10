@@ -20,11 +20,12 @@
           <tr><th colspan="2">INFORMACIÓN BÁSICA</th></tr>
       </theader>
   <tbody>
-
+<tr><td>ALUMNO:</td><td>Roger Infa Sanchez</td></tr>
   <tr><td>EXAMEN FINAL:</td><td>Problema Productor Consumidor consola y GUI</td></tr>
   <tr><td colspan="2">RECURSOS:
       <ul>
-      <li>Oscar J Blancarte Iturralde. Introducción a los patrones de diseño. Un enfoque práctico (Spanish Edition. CreateSpace Independent Publishing Platform (2016)</li>
+      <li>Problema productor-consumidor de Wikipedia, link https://es.wikipedia.org/wiki/Problema_productor-consumidor#:~:text=La%20tarea%20del%20productor%20es,simult%C3%A1neamente)%20productos%20uno%20a%20uno.</li>
+        <li>Git del docente, link https://github.com/rescobedoulasalle/so</li>
       </ul>
   </td>
   </<tr>
