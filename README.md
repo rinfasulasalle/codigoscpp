@@ -38,16 +38,9 @@
    <tr><td colspan="2">INDICE:
       <ul>
           <ol>
-            <li>Introducción</li>
-            <li>Explicación Patrón Mediator</li>
-            <li>Ejemplos
-              <ol>
-                 <li>Ejemplo vida cotidiana</li>
-                 <li>Ejemplo programación básico</li>
-                 <li>Ejemplo programación avanzado</li>
-              </ol>
-            </li>
-            <li>Uso del patrón en librerías, frameworks, programas,etc</li>
+            <li>Requisitos</li>
+            <li>Solución paso a paso</li>
+            <li>Solución paso a paso GUI</li>
             <li>Bibliografías y referencias</li>
           </ol>
       </ul>
@@ -83,7 +76,7 @@ Para que se instalen los repositorios necesarios para compilar archivos .c y .cp
 
 Luego de ello, para la solución por consola, uttilizarémos el editor de código Visual Studio Code que además des ser editor de texto, será  donde compilemos nuestro código.
 
-## Solución paso a paso
+## Solución paso a paso consola
 El inicio basico sería el siguiente
 ```cpp
 #include "iostream"
@@ -205,7 +198,285 @@ Finalmente en ```void join_thread()``` finaliza los threads.
 Al momento de ejcutar este .cpp por la consola de linux y compilador de Visual Studio Code me aparecíam los siguientes errores.
 
 Cosola de Visual Studio Code:
-
+<div style = 'align:center;'>
+<p>
+<img src="https://github.com/rinfasulasalle/productor_consumidor/blob/main/img/e1.PNG" alt="JuveYell">
+</p>
+</div>
+En el caso de mi linux, adjunto el sistema operativo en el que estoy trabajando
+<div style = 'align:center;'>
+<p>
+<img src="https://github.com/rinfasulasalle/productor_consumidor/blob/main/img/so.PNG" alt="JuveYell" >
+</p>
+</div>
 Consola de Linux:
-
+<div style = 'align:center;'>
+<p>
+<img src="https://github.com/rinfasulasalle/productor_consumidor/blob/main/img/e2.PNG" alt="JuveYell" >
+</p>
+</div>
+ Sin embargo, medinate el compilador online OnlineGDB en su Beta para c++, adjunto el link https://www.onlinegdb.com/online_c++_compiler#editor_1 no se me presentó los errores mencionados anteriormente, obteniendo como salida
  
+```
+p0: El Productor nmro 0 produce: 26
+c1: L Consumidor nmro 1 consume:26
+p2: El Productor nmro 2 produce: 26
+p2: El Productor nmro 2 produce: 25
+p2: El Productor nmro 2 produce: 24
+p2: El Productor nmro 2 produce: 23
+p2: El Productor nmro 2 produce: 22
+p2: El Productor nmro 2 produce: 21
+p2: El Productor nmro 2 produce: 20
+p2: El Productor nmro 2 produce: 19
+p2: El Productor nmro 2 produce: 18
+c1: L Consumidor nmro 1 consume:18
+p2: El Productor nmro 2 produce: 17
+p2: El Productor nmro 2 produce: 16
+c1: L Consumidor nmro 1 consume:16
+c0: L Consumidor nmro 0 consume:17
+p0: El Productor nmro 0 produce: 25
+p0: El Productor nmro 0 produce: 24
+c4: L Consumidor nmro 4 consume:24
+c4: L Consumidor nmro 4 consume:25
+p3: El Productor nmro 3 produce: 26
+p3: El Productor nmro 3 produce: 25
+c0: L Consumidor nmro 0 consume:25
+c1: L Consumidor nmro 1 consume:26
+c1: L Consumidor nmro 1 consume:19
+c1: L Consumidor nmro 1 consume:20
+c0: L Consumidor nmro 0 consume:21
+c0: L Consumidor nmro 0 consume:22
+c3: L Consumidor nmro 3 consume:23
+p1: El Productor nmro 1 produce: 26
+p3: El Productor nmro 3 produce: 24
+p1: El Productor nmro 1 produce: 25
+c2: L Consumidor nmro 2 consume:25
+c2: L Consumidor nmro 2 consume:24
+c2: L Consumidor nmro 2 consume:26
+c2: L Consumidor nmro 2 consume:24
+c2: L Consumidor nmro 2 consume:25
+c2: L Consumidor nmro 2 consume:26
+p4: El Productor nmro 4 produce: 26
+p4: El Productor nmro 4 produce: 25
+p4: El Productor nmro 4 produce: 24
+p4: El Productor nmro 4 produce: 23
+c3: L Consumidor nmro 3 consume:23
+c3: L Consumidor nmro 3 consume:24
+c3: L Consumidor nmro 3 consume:25
+c3: L Consumidor nmro 3 consume:26
+p2: El Productor nmro 2 produce: 15
+p2: El Productor nmro 2 produce: 14
+p0: El Productor nmro 0 produce: 23
+p2: El Productor nmro 2 produce: 13
+p2: El Productor nmro 2 produce: 12
+p2: El Productor nmro 2 produce: 11
+p2: El Productor nmro 2 produce: 10
+p2: El Productor nmro 2 produce: 9
+p3: El Productor nmro 3 produce: 23
+p3: El Productor nmro 3 produce: 22
+c2: L Consumidor nmro 2 consume:22
+c1: L Consumidor nmro 1 consume:23
+p2: El Productor nmro 2 produce: 8
+c3: L Consumidor nmro 3 consume:8
+c3: L Consumidor nmro 3 consume:9
+c3: L Consumidor nmro 3 consume:10
+c3: L Consumidor nmro 3 consume:11
+c3: L Consumidor nmro 3 consume:12
+c3: L Consumidor nmro 3 consume:13
+c3: L Consumidor nmro 3 consume:23
+c3: L Consumidor nmro 3 consume:14
+c3: L Consumidor nmro 3 consume:15
+p1: El Productor nmro 1 produce: 24
+p2: El Productor nmro 2 produce: 7
+c3: L Consumidor nmro 3 consume:7
+c3: L Consumidor nmro 3 consume:24
+p0: El Productor nmro 0 produce: 22
+c2: L Consumidor nmro 2 consume:22
+p3: El Productor nmro 3 produce: 21
+p3: El Productor nmro 3 produce: 20
+p3: El Productor nmro 3 produce: 19
+p3: El Productor nmro 3 produce: 18
+p3: El Productor nmro 3 produce: 17
+p3: El Productor nmro 3 produce: 16
+p3: El Productor nmro 3 produce: 15
+p3: El Productor nmro 3 produce: 14
+p3: El Productor nmro 3 produce: 13
+p3: El Productor nmro 3 produce: 12
+c1: L Consumidor nmro 1 consume:12
+c0: L Consumidor nmro 0 consume:13
+p0: El Productor nmro 0 produce: 21
+c3: L Consumidor nmro 3 consume:21
+c3: L Consumidor nmro 3 consume:14
+p2: El Productor nmro 2 produce: 6
+p2: El Productor nmro 2 produce: 5
+p2: El Productor nmro 2 produce: 4
+c0: L Consumidor nmro 0 consume:4
+p1: El Productor nmro 1 produce: 23
+c2: L Consumidor nmro 2 consume:23
+c3: L Consumidor nmro 3 consume:5
+c1: L Consumidor nmro 1 consume:6
+p0: El Productor nmro 0 produce: 20
+p2: El Productor nmro 2 produce: 3
+p2: El Productor nmro 2 produce: 2
+c4: L Consumidor nmro 4 consume:2
+c2: L Consumidor nmro 2 consume:3
+c2: L Consumidor nmro 2 consume:20
+c2: L Consumidor nmro 2 consume:15
+c2: L Consumidor nmro 2 consume:16
+c2: L Consumidor nmro 2 consume:17
+c2: L Consumidor nmro 2 consume:18
+c2: L Consumidor nmro 2 consume:19
+c2: L Consumidor nmro 2 consume:20
+c2: L Consumidor nmro 2 consume:21
+p2: El Productor nmro 2 produce: 1
+c4: L Consumidor nmro 4 consume:1
+p1: El Productor nmro 1 produce: 22
+c3: L Consumidor nmro 3 consume:22
+p3: El Productor nmro 3 produce: 11
+c0: L Consumidor nmro 0 consume:11
+p1: El Productor nmro 1 produce: 21
+p1: El Productor nmro 1 produce: 20
+p1: El Productor nmro 1 produce: 19
+p1: El Productor nmro 1 produce: 18
+p1: El Productor nmro 1 produce: 17
+p1: El Productor nmro 1 produce: 16
+p1: El Productor nmro 1 produce: 15
+p1: El Productor nmro 1 produce: 14
+p1: El Productor nmro 1 produce: 13
+p1: El Productor nmro 1 produce: 12
+c2: L Consumidor nmro 2 consume:12
+p0: El Productor nmro 0 produce: 19
+c4: L Consumidor nmro 4 consume:19
+c4: L Consumidor nmro 4 consume:13
+c4: L Consumidor nmro 4 consume:14
+c4: L Consumidor nmro 4 consume:15
+c4: L Consumidor nmro 4 consume:16
+c4: L Consumidor nmro 4 consume:17
+c4: L Consumidor nmro 4 consume:18
+c4: L Consumidor nmro 4 consume:19
+c4: L Consumidor nmro 4 consume:20
+c4: L Consumidor nmro 4 consume:21
+p3: El Productor nmro 3 produce: 10
+p3: El Productor nmro 3 produce: 9
+p3: El Productor nmro 3 produce: 8
+p3: El Productor nmro 3 produce: 7
+p3: El Productor nmro 3 produce: 6
+p3: El Productor nmro 3 produce: 5
+p3: El Productor nmro 3 produce: 4
+p3: El Productor nmro 3 produce: 3
+p3: El Productor nmro 3 produce: 2
+p3: El Productor nmro 3 produce: 1
+c0: L Consumidor nmro 0 consume:1
+p4: El Productor nmro 4 produce: 22
+c3: L Consumidor nmro 3 consume:22
+c4: L Consumidor nmro 4 consume:2
+c3: L Consumidor nmro 3 consume:3
+c4: L Consumidor nmro 4 consume:4
+p4: El Productor nmro 4 produce: 21
+p4: El Productor nmro 4 produce: 20
+p4: El Productor nmro 4 produce: 19
+c3: L Consumidor nmro 3 consume:19
+c3: L Consumidor nmro 3 consume:20
+c3: L Consumidor nmro 3 consume:21
+c3: L Consumidor nmro 3 consume:5
+c3: L Consumidor nmro 3 consume:6
+c3: L Consumidor nmro 3 consume:7
+c3: L Consumidor nmro 3 consume:8
+c3: L Consumidor nmro 3 consume:9
+c3: L Consumidor nmro 3 consume:10
+p1: El Productor nmro 1 produce: 11
+c1: L Consumidor nmro 1 consume:11
+p0: El Productor nmro 0 produce: 18
+p1: El Productor nmro 1 produce: 10
+p1: El Productor nmro 1 produce: 9
+p1: El Productor nmro 1 produce: 8
+c4: L Consumidor nmro 4 consume:8
+c0: L Consumidor nmro 0 consume:9
+c0: L Consumidor nmro 0 consume:10
+c0: L Consumidor nmro 0 consume:18
+p1: El Productor nmro 1 produce: 7
+c3: L Consumidor nmro 3 consume:7
+p0: El Productor nmro 0 produce: 17
+p4: El Productor nmro 4 produce: 18
+c2: L Consumidor nmro 2 consume:18
+c2: L Consumidor nmro 2 consume:17
+p1: El Productor nmro 1 produce: 6
+c1: L Consumidor nmro 1 consume:6
+p0: El Productor nmro 0 produce: 16
+p4: El Productor nmro 4 produce: 17
+p1: El Productor nmro 1 produce: 5
+c2: L Consumidor nmro 2 consume:5
+c2: L Consumidor nmro 2 consume:17
+c2: L Consumidor nmro 2 consume:16
+p4: El Productor nmro 4 produce: 16
+p1: El Productor nmro 1 produce: 4
+p1: El Productor nmro 1 produce: 3
+c4: L Consumidor nmro 4 consume:3
+c4: L Consumidor nmro 4 consume:4
+c4: L Consumidor nmro 4 consume:16
+p1: El Productor nmro 1 produce: 2
+c0: L Consumidor nmro 0 consume:2
+p0: El Productor nmro 0 produce: 15
+p4: El Productor nmro 4 produce: 15
+p1: El Productor nmro 1 produce: 1
+c4: L Consumidor nmro 4 consume:1
+c4: L Consumidor nmro 4 consume:15
+c4: L Consumidor nmro 4 consume:15
+p0: El Productor nmro 0 produce: 14
+p4: El Productor nmro 4 produce: 14
+c2: L Consumidor nmro 2 consume:14
+c0: L Consumidor nmro 0 consume:14
+p0: El Productor nmro 0 produce: 13
+c1: L Consumidor nmro 1 consume:13
+p0: El Productor nmro 0 produce: 12
+c4: L Consumidor nmro 4 consume:12
+p4: El Productor nmro 4 produce: 13
+p0: El Productor nmro 0 produce: 11
+p0: El Productor nmro 0 produce: 10
+p0: El Productor nmro 0 produce: 9
+p0: El Productor nmro 0 produce: 8
+p0: El Productor nmro 0 produce: 7
+p0: El Productor nmro 0 produce: 6
+p0: El Productor nmro 0 produce: 5
+p0: El Productor nmro 0 produce: 4
+p0: El Productor nmro 0 produce: 3
+c1: L Consumidor nmro 1 consume:3
+c0: L Consumidor nmro 0 consume:4
+c0: L Consumidor nmro 0 consume:5
+c0: L Consumidor nmro 0 consume:6
+c0: L Consumidor nmro 0 consume:7
+c0: L Consumidor nmro 0 consume:8
+c0: L Consumidor nmro 0 consume:9
+c0: L Consumidor nmro 0 consume:10
+c0: L Consumidor nmro 0 consume:11
+c0: L Consumidor nmro 0 consume:13
+p0: El Productor nmro 0 produce: 2
+p4: El Productor nmro 4 produce: 12
+c0: L Consumidor nmro 0 consume:12
+c2: L Consumidor nmro 2 consume:2
+p4: El Productor nmro 4 produce: 11
+c4: L Consumidor nmro 4 consume:11
+p0: El Productor nmro 0 produce: 1
+p4: El Productor nmro 4 produce: 10
+c0: L Consumidor nmro 0 consume:10
+c4: L Consumidor nmro 4 consume:1
+p4: El Productor nmro 4 produce: 9
+c3: L Consumidor nmro 3 consume:9
+p4: El Productor nmro 4 produce: 8
+c3: L Consumidor nmro 3 consume:8
+p4: El Productor nmro 4 produce: 7
+c4: L Consumidor nmro 4 consume:7
+p4: El Productor nmro 4 produce: 6
+c4: L Consumidor nmro 4 consume:6
+p4: El Productor nmro 4 produce: 5
+c4: L Consumidor nmro 4 consume:5
+p4: El Productor nmro 4 produce: 4
+c3: L Consumidor nmro 3 consume:4
+p4: El Productor nmro 4 produce: 3
+c3: L Consumidor nmro 3 consume:3
+p4: El Productor nmro 4 produce: 2
+p4: El Productor nmro 4 produce: 1
+c2: L Consumidor nmro 2 consume:1
+c0: L Consumidor nmro 0 consume:2
+```
+## Solución paso a paso GUI
