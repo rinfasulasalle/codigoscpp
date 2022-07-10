@@ -22,10 +22,13 @@
   <tbody>
 <tr><td>ALUMNO:</td><td>Roger Infa Sanchez</td></tr>
   <tr><td>EXAMEN FINAL:</td><td>Problema Productor Consumidor consola y GUI</td></tr>
-  <tr><td colspan="2">RECURSOS:
+ <tr><td colspan="2">RECURSOS:
       <ul>
       <li>Problema productor-consumidor de Wikipedia, link https://es.wikipedia.org/wiki/Problema_productor-consumidor#:~:text=La%20tarea%20del%20productor%20es,simult%C3%A1neamente)%20productos%20uno%20a%20uno.</li>
         <li>Git del docente, link https://github.com/rescobedoulasalle/so</li>
+	<li>Productor-Consumidor C++ En Youtube, https://www.youtube.com/watch?v=sEZYHV0hPgg</li>
+	<li>Cómo: Implementar varios modelos productor-consumidor de Microsoft, https://docs.microsoft.com/es-es/cpp/parallel/concrt/how-to-implement-various-producer-consumer-patterns?view=msvc-170</li>
+	<li>Trabajo de Sistemas Operativos de Elena Cano Urdiales y Raquel Santos Rubio, https://www.infor.uva.es/~cllamas/concurr/pract97/rsantos/</li>    
       </ul>
   </td>
   </<tr>
@@ -480,3 +483,17 @@ c2: L Consumidor nmro 2 consume:1
 c0: L Consumidor nmro 0 consume:2
 ```
 ## Solución paso a paso GUI
+
+
+
+## Bibliografías y referencias
+ <tr><td colspan="2">RECURSOS:
+      <ul>
+      <li>Problema productor-consumidor de Wikipedia, link https://es.wikipedia.org/wiki/Problema_productor-consumidor#:~:text=La%20tarea%20del%20productor%20es,simult%C3%A1neamente)%20productos%20uno%20a%20uno.</li>
+        <li>Git del docente, link https://github.com/rescobedoulasalle/so</li>
+	<li>Productor-Consumidor C++ En Youtube, https://www.youtube.com/watch?v=sEZYHV0hPgg</li>
+	<li>Cómo: Implementar varios modelos productor-consumidor de Microsoft, https://docs.microsoft.com/es-es/cpp/parallel/concrt/how-to-implement-various-producer-consumer-patterns?view=msvc-170</li>
+	<li>Trabajo de Sistemas Operativos de Elena Cano Urdiales y Raquel Santos Rubio, https://www.infor.uva.es/~cllamas/concurr/pract97/rsantos/</li>    
+      </ul>
+  </td>
+  </<tr>
