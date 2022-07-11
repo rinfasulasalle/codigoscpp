@@ -483,8 +483,38 @@ c2: L Consumidor nmro 2 consume:1
 c0: L Consumidor nmro 0 consume:2
 ```
 ## Solución paso a paso GUI
+Para conectar el código fuente y la interfaz gráfica utilizaremos QT que es un framework poderoso para crear aplicaiones android en base a c++, entonces ejecutamos primero esto: 
+```
+sudo apt-get install build-essential libgl1-mesa-dev
+```
+Luego de ello, descargamos el archivo ```qt-unified-linux-x64-4.4.1-online.run``` de la misma pagina https://www.qt.io/download-qt-installer
+Después ```chmod +x qt-unified-linux-x64-4.4.1-online.run``` y luego ```./qt-opensource-linux-x64-5.7.0.run``` para ejecutar el instalador.
+<div style = 'align:center;'>
+<p>
+<img src="https://github.com/rinfasulasalle/productor_consumidor/blob/main/img/qt1.PNG" alt="JuveYell">
+</p>
+</div>
 
+Nos registramos
+<div style = 'align:center;'>
+<p>
+<img src="https://github.com/rinfasulasalle/productor_consumidor/blob/main/img/qt2.PNG" alt="JuveYell">
+</p>
+</div>
 
+Y seguimos con la verificaion del correo
+<div style = 'align:center;'>
+<p>
+<img src="https://github.com/rinfasulasalle/productor_consumidor/blob/main/img/qt3.PNG" alt="JuveYell">
+</p>
+</div>
+
+ Y esperamos a que se descargue e instale
+<div style = 'align:center;'>
+<p>
+<img src="https://github.com/rinfasulasalle/productor_consumidor/blob/main/img/qt4.PNG" alt="JuveYell">
+</p>
+</div>
 
 ## Bibliografías y referencias
  <tr><td colspan="2">RECURSOS:
