@@ -516,6 +516,31 @@ Y seguimos con la verificaion del correo
 </p>
 </div>
 
+Entonces después de instalar el QT5, creamos un proyeto de ```QT WINDOWS APPLICATION``` y le damos en next a todo.
+<div style = 'align:center;'>
+<p>
+<img src="https://github.com/rinfasulasalle/productor_consumidor/blob/main/img/qt5.PNG" alt="JuveYell">
+</p>
+</div>
+Y en FORMS si le damos doble click al archivo que tiene nos manda a un generador de interfaces gráficas.
+<div style = 'align:center;'>
+<p>
+<img src="https://github.com/rinfasulasalle/productor_consumidor/blob/main/img/qt6.PNG" alt="JuveYell">
+</p>
+</div>
+Entonces jugando con el programa generamos una ventana agradable y entendible para el usuario.
+<div style = 'align:center;'>
+<p>
+<img src="https://github.com/rinfasulasalle/productor_consumidor/blob/main/img/qt7.PNG" alt="JuveYell">
+</p>
+</div>
+Al darle funcionalidad de click al boton, se abre un codigo entendible donde empezamos a programar.
+<div style = 'align:center;'>
+<p>
+<img src="https://github.com/rinfasulasalle/productor_consumidor/blob/main/img/qt8.PNG" alt="JuveYell">
+</p>
+</div>
+
 ## Bibliografías y referencias
  <tr><td colspan="2">RECURSOS:
       <ul>
